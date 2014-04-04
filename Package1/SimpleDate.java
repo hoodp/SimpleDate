@@ -1,5 +1,3 @@
-package package1;
-
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -482,7 +480,7 @@ public class SimpleDate {
 			// problem reading the file
 		catch (IOException error){
 			System.out.println("Oops!  Something went wrong.");
-		}
+			}
 
 	}
 	
